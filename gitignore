@@ -1,0 +1,8 @@
+*.pyc
+.DS_Store
+uploads/*
+.vagrant/
+app/dev.sqlite
+migrations/
+.idea/
+.venv
