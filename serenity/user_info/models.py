@@ -10,4 +10,3 @@ class User_info(models.Model):
     age = models.PositiveIntegerField(validators=[MinValueValidator(10)])
     sex = models.CharField(max_length=50)
     picture = models.ImageField(upload_to='avatars', height_field=50, width_field=50)
-fsd
